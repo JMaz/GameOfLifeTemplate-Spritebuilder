@@ -147,7 +147,7 @@ static const int GRID_COLUMNS = 10;
                 currentCreature.setIsAlive:true;
             }
             else if(currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >= 1 ){
-                currentCreature.setIsAlive:false;
+                currentCreature.setIsAlive: false;
             }
             }
     }
